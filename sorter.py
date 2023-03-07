@@ -1,5 +1,6 @@
 import shutil
 from pathlib import Path
+import sys
 
 
 def normalize(name_file: str) -> str:
@@ -57,4 +58,4 @@ def sorting(folder):
 
 
 if __name__ == '__main__':
-    sorting(r'D:\trash')
+    sorting(sys.argv[-1])
