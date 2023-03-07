@@ -56,4 +56,5 @@ def sorting(folder):
             empty.rmdir()
 
 
-sorting('')
+if __name__ == '__main__':
+    sorting(r'D:\trash')
